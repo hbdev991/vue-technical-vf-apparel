@@ -15,7 +15,7 @@ export function getProducts() {
     const filterProducts = async (event) => {
       let value = event.target.value
       generalStore.showLoader() // show loader
-      await productsStore.filterProducts(value)
+      await productsStore.updateProducts({sort_by: value}) // Pass in query params to filter API response
       
       // Hide loader and add 300ms for animation effect to not jarr the user
       setTimeout(() => generalStore.hideLoader(), 300) 
