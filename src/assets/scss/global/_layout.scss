@@ -1,0 +1,11 @@
+.mainContent {
+    padding-top:30px;
+    padding-bottom:30px;
+    &--sidebar {
+        @media(min-width:1199px) {
+            display:grid;
+            grid-template-columns: calc(70% - 45px) 30%;
+            grid-gap:45px;
+        }
+    }
+}

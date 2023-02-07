@@ -1,0 +1,19 @@
+.alert {
+    position:fixed;
+    top:20px;
+    z-index:3;
+    width:600px;
+    max-width:100%;
+    margin:0 auto;
+    left:0;
+    right:0;
+    color:#fff;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-radius:10px;
+    font-size:18px;
+    background:#E12525;
+}

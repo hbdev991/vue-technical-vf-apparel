@@ -1,0 +1,15 @@
+.pageHeader {
+    background:#fff;
+    padding:20px 0;
+    @media(min-width:1199px) {
+        padding:36px 0;
+    }
+    &__wrapper {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo img {
+        vertical-align: bottom;
+    }
+}

@@ -1,0 +1,19 @@
+
+@import "./typography.scss";
+@import "./layout.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:$baseFontFamily;
+    font-size:1rem;
+    background:$body;
+    line-height:1.4;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
